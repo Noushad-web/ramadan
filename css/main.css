@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+}
+
+h1 {
+  font-family: "EB Garamond", serif;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+}
+
+h1 {
+  font-family: "EB Garamond", serif;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+.bgVid {
+  position: absolute;
+  top: 0;
+  z-index: -100;
+  width: 100%;
+  object-fit: cover;
+}
+
+header nav .navbar-brand {
+  margin-top: -1em;
+}
+header nav .nav-link {
+  color: #d7f7fe;
+  font-size: 1.2rem;
+}
+
+.wrapper-intro {
+  padding: 2em 0;
+}
+.wrapper-intro .bg-container {
+  padding: 0 1em;
+}
+.wrapper-intro .bg-container article {
+  color: #d7f7fe;
+  width: 80ch;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1em 2em;
+  backdrop-filter: blur(1px);
+}
+.wrapper-intro .bg-container article h1 {
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+}
+.wrapper-intro .bg-container article p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 769px) {
+  .navbar-brand img {
+    width: 50px;
+  }
+
+  .bgVid {
+    height: 100%;
+  }
+
+  .wrapper-intro {
+    padding: 0;
+  }
+  .wrapper-intro .bg-container {
+    padding: 0 0.5em;
+  }
+  .wrapper-intro .bg-container article {
+    padding: 0 1em;
+  }
+  .wrapper-intro .bg-container article h1 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+  }
+  .wrapper-intro .bg-container article p {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
